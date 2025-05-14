@@ -22,6 +22,7 @@ payload:
   - DOMAIN-SUFFIX,download.microsoft.com,
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,
   - DOMAIN-SUFFIX,delivery.mp.microsoft.com,
+  - DOMAIN-SUFFIX,SearchApp.exe,
   - DOMAIN-SUFFIX,onedrive.com,
   - DOMAIN-SUFFIX,onedrive.co,
   - DOMAIN-SUFFIX,onedrive.eu,
