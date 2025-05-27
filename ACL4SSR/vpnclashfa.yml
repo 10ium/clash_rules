@@ -121,7 +121,6 @@ tun:
 
 proxies: []
 proxy-groups: []
-rule-providers:
   category_public_tracker:
     type: http
     behavior: domain
