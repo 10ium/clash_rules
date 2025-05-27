@@ -118,9 +118,7 @@ tun:
     - "any:53"
     - "tcp://any:53"
 
-
-proxies: []
-proxy-groups: []
+rule-providers:
   category_public_tracker:
     type: http
     behavior: domain
@@ -452,6 +450,10 @@ proxy-groups: []
     url: "https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/windows.yaml"
     path: ./ruleset/windows.yaml
     interval: 86400
+
+proxies: []
+proxy-groups: []
+
 
 rules:
   - RULE-SET,DownloadManagers,دانلود منیجر 📥
