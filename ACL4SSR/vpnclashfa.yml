@@ -517,7 +517,7 @@ rules:
   - RULE-SET,google,گوگل 🌍
   - RULE-SET,local_ips,بدون فیلترشکن 🛡️
   - RULE-SET,private,بدون فیلترشکن 🛡️
-  - MATCH,نوع انتخاب پروکسی 🔀
+
 
 ntp:
   enable: true
