@@ -454,7 +454,6 @@ rule-providers:
 proxies: []
 proxy-groups: []
 
-
 rules:
   - RULE-SET,DownloadManagers,دانلود منیجر 📥
   - RULE-SET,Download,دانلود منیجر 📥
