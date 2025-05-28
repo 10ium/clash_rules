@@ -5,6 +5,7 @@ payload:
   - PROCESS-NAME,MoUsoCoreWorker.exe,
   - PROCESS-NAME,WinStore.App.exe,
   - PROCESS-NAME,WindowsPackageManagerServer.exe,
+  - PROCESS-NAME,SearchApp.exe,
   - PROCESS-NAME,smartscreen.exe,
   - PROCESS-NAME,OneDriveStandaloneUpdater.exe,
   - PROCESS-NAME,Microsoft.SharePoint.exe,
