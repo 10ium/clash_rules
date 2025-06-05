@@ -1,4 +1,5 @@
 payload:
+- PROCESS-NAME,com.miui.msa.global,
   - DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com,
   - DOMAIN-SUFFIX,script.hotjar.com,
   - DOMAIN-SUFFIX,analytics.s3.amazonaws.com,
