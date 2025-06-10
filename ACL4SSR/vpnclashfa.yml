@@ -43,7 +43,6 @@ dns:
     - '*.home.arpa'
     - 'time.*.com'
     - 'ntp.*.com'
-    - 'time.*.com'  
     - '*.ir'
   default-nameserver:
     - 8.8.8.8
