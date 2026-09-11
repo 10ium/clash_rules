@@ -1,0 +1,246 @@
+payload:
+  # ============================================================
+  # AI / LLM — CHAT & ASSISTANTS
+  # ============================================================
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,google.ai
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,deepseek.ai
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,qwenlm.ai
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,chat.mistral.ai
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,pi.ai
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,ai21.com
+  - DOMAIN-SUFFIX,replicate.com
+  - DOMAIN-SUFFIX,together.ai
+  - DOMAIN-SUFFIX,fireworks.ai
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,cerebras.ai
+  - DOMAIN-SUFFIX,sambanova.ai
+  - DOMAIN-SUFFIX,moonshot.ai
+  - DOMAIN-SUFFIX,kimi.com
+  - DOMAIN-SUFFIX,minimax.io
+  - DOMAIN-SUFFIX,z.ai
+  - DOMAIN-SUFFIX,zhipuai.cn
+  - DOMAIN-SUFFIX,01.ai
+  - DOMAIN-SUFFIX,baichuan-ai.com
+  - DOMAIN-SUFFIX,stepfun.com
+  - DOMAIN-SUFFIX,dashscope.aliyuncs.com
+  - DOMAIN-SUFFIX,hunyuan.tencent.com
+  - DOMAIN-SUFFIX,ernie.baidu.com
+
+  # ============================================================
+  # AI SEARCH / RESEARCH
+  # ============================================================
+  - DOMAIN-SUFFIX,you.com
+  - DOMAIN-SUFFIX,phind.com
+  - DOMAIN-SUFFIX,exa.ai
+  - DOMAIN-SUFFIX,tavily.com
+  - DOMAIN-SUFFIX,genspark.ai
+  - DOMAIN-SUFFIX,komo.ai
+  - DOMAIN-SUFFIX,andi.com
+  - DOMAIN-SUFFIX,consensus.app
+  - DOMAIN-SUFFIX,elicit.com
+  - DOMAIN-SUFFIX,scite.ai
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,chatpdf.com
+  - DOMAIN-SUFFIX,humata.ai
+  - DOMAIN-SUFFIX,scispace.com
+
+  # ============================================================
+  # AI CODING / IDE / AGENTS / HARNESSES
+  # ============================================================
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,api.cursor.com
+  - DOMAIN-SUFFIX,windsurf.com
+  - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,tabnine.com
+  - DOMAIN-SUFFIX,augmentcode.com
+  - DOMAIN-SUFFIX,cline.bot
+  - DOMAIN-SUFFIX,roocode.com
+  - DOMAIN-SUFFIX,aider.chat
+  - DOMAIN-SUFFIX,continue.dev
+  - DOMAIN-SUFFIX,amazonq.com
+  - DOMAIN-SUFFIX,devin.ai
+  - DOMAIN-SUFFIX,openhands.dev
+
+  # ============================================================
+  # AI AGENTS / AUTOMATION / WORKFLOWS
+  # ============================================================
+  - DOMAIN-SUFFIX,dify.ai
+  - DOMAIN-SUFFIX,flowiseai.com
+  - DOMAIN-SUFFIX,langflow.org
+  - DOMAIN-SUFFIX,relevanceai.com
+  - DOMAIN-SUFFIX,lindy.ai
+  - DOMAIN-SUFFIX,gumloop.com
+  - DOMAIN-SUFFIX,dust.tt
+  - DOMAIN-SUFFIX,composio.dev
+  - DOMAIN-SUFFIX,agentgpt.reworkd.ai
+  - DOMAIN-SUFFIX,autogpt.co
+  - DOMAIN-SUFFIX,crew.ai
+  - DOMAIN-SUFFIX,crewai.com
+  - DOMAIN-SUFFIX,browser-use.com
+
+  # ============================================================
+  # AI IMAGE / DESIGN
+  # ============================================================
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,leonardo.ai
+  - DOMAIN-SUFFIX,ideogram.ai
+  - DOMAIN-SUFFIX,playgroundai.com
+  - DOMAIN-SUFFIX,stability.ai
+  - DOMAIN-SUFFIX,blackforestlabs.ai
+  - DOMAIN-SUFFIX,flux.ai
+  - DOMAIN-SUFFIX,krea.ai
+  - DOMAIN-SUFFIX,recraft.ai
+  - DOMAIN-SUFFIX,tensor.art
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,mage.space
+  - DOMAIN-SUFFIX,seaart.ai
+  - DOMAIN-SUFFIX,pixai.art
+  - DOMAIN-SUFFIX,novelai.net
+  - DOMAIN-SUFFIX,nightcafe.studio
+  - DOMAIN-SUFFIX,getimg.ai
+  - DOMAIN-SUFFIX,dezgo.com
+  - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,firefly.adobe.com
+  - DOMAIN-SUFFIX,photoroom.com
+
+  # ============================================================
+  # AI VIDEO / AVATAR
+  # ============================================================
+  - DOMAIN-SUFFIX,runwayml.com
+  - DOMAIN-SUFFIX,runway.com
+  - DOMAIN-SUFFIX,pika.art
+  - DOMAIN-SUFFIX,luma.ai
+  - DOMAIN-SUFFIX,lumalabs.ai
+  - DOMAIN-SUFFIX,klingai.com
+  - DOMAIN-SUFFIX,vidu.com
+  - DOMAIN-SUFFIX,pixverse.ai
+  - DOMAIN-SUFFIX,haiper.ai
+  - DOMAIN-SUFFIX,hailuoai.video
+  - DOMAIN-SUFFIX,higgsfield.ai
+  - DOMAIN-SUFFIX,hedra.com
+  - DOMAIN-SUFFIX,synthesia.io
+  - DOMAIN-SUFFIX,heygen.com
+  - DOMAIN-SUFFIX,d-id.com
+  - DOMAIN-SUFFIX,colossyan.com
+  - DOMAIN-SUFFIX,tavus.io
+  - DOMAIN-SUFFIX,opus.pro
+  - DOMAIN-SUFFIX,kaiber.ai
+  - DOMAIN-SUFFIX,captions.ai
+
+  # ============================================================
+  # AI AUDIO / MUSIC / VOICE
+  # ============================================================
+  - DOMAIN-SUFFIX,elevenlabs.io
+  - DOMAIN-SUFFIX,play.ht
+  - DOMAIN-SUFFIX,murf.ai
+  - DOMAIN-SUFFIX,resemble.ai
+  - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,udio.com
+  - DOMAIN-SUFFIX,aiva.ai
+  - DOMAIN-SUFFIX,soundraw.io
+  - DOMAIN-SUFFIX,boomy.com
+  - DOMAIN-SUFFIX,mubert.com
+  - DOMAIN-SUFFIX,kits.ai
+  - DOMAIN-SUFFIX,speechify.com
+
+  # ============================================================
+  # SPEECH / TRANSCRIPTION / MEETING AI
+  # ============================================================
+  - DOMAIN-SUFFIX,assemblyai.com
+  - DOMAIN-SUFFIX,deepgram.com
+  - DOMAIN-SUFFIX,soniox.com
+  - DOMAIN-SUFFIX,gladia.io
+  - DOMAIN-SUFFIX,fireflies.ai
+  - DOMAIN-SUFFIX,otter.ai
+  - DOMAIN-SUFFIX,notta.ai
+  - DOMAIN-SUFFIX,tldv.io
+  - DOMAIN-SUFFIX,fathom.video
+  - DOMAIN-SUFFIX,granola.ai
+  - DOMAIN-SUFFIX,read.ai
+  - DOMAIN-SUFFIX,krisp.ai
+
+  # ============================================================
+  # AI PRODUCTIVITY / WRITING / DOCUMENTS
+  # ============================================================
+  - DOMAIN-SUFFIX,grammarly.com
+  - DOMAIN-SUFFIX,jasper.ai
+  - DOMAIN-SUFFIX,copy.ai
+  - DOMAIN-SUFFIX,writesonic.com
+  - DOMAIN-SUFFIX,quillbot.com
+  - DOMAIN-SUFFIX,wordtune.com
+  - DOMAIN-SUFFIX,mem.ai
+  - DOMAIN-SUFFIX,beautiful.ai
+  - DOMAIN-SUFFIX,gamma.app
+  - DOMAIN-SUFFIX,tome.app
+
+  # ============================================================
+  # AI CLOUD / MODEL INFERENCE / GPU PLATFORMS
+  # ============================================================
+  - DOMAIN-SUFFIX,fal.ai
+  - DOMAIN-SUFFIX,modal.com
+  - DOMAIN-SUFFIX,runpod.io
+  - DOMAIN-SUFFIX,baseten.co
+  - DOMAIN-SUFFIX,anyscale.com
+  - DOMAIN-SUFFIX,lepton.ai
+  - DOMAIN-SUFFIX,novita.ai
+  - DOMAIN-SUFFIX,siliconflow.com
+
+  # ============================================================
+  # MODEL HUBS / OPEN AI ECOSYSTEM
+  # ============================================================
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,huggingface.tech
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,modelscope.cn
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,wandb.ai
+  - DOMAIN-SUFFIX,wandb.com
+  - DOMAIN-SUFFIX,weights.com
+
+  # ============================================================
+  # LOCAL AI RUNTIMES / DESKTOP APPS
+  # ============================================================
+  - DOMAIN-SUFFIX,ollama.com
+  - DOMAIN-SUFFIX,lmstudio.ai
+  - DOMAIN-SUFFIX,jan.ai
+  - DOMAIN-SUFFIX,gpt4all.io
+  - DOMAIN-SUFFIX,anythingllm.com
+  - DOMAIN-SUFFIX,openwebui.com
+  - DOMAIN-SUFFIX,koboldai.org
+
+  # ============================================================
+  # WINDOWS AI PROCESS NAMES
+  # ============================================================
+  - PROCESS-NAME,ChatGPT.exe
+  - PROCESS-NAME,Cursor.exe
+  - PROCESS-NAME,Windsurf.exe
+  - PROCESS-NAME,ollama.exe
+  - PROCESS-NAME,jan.exe
+  - PROCESS-NAME,AnythingLLM.exe
+
+  # ============================================================
+  # ANDROID PACKAGE NAMES
+  # ============================================================
+  - PACKAGE-NAME,com.openai.chatgpt
