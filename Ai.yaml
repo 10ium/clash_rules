@@ -1,19 +1,17 @@
 payload:
   # ====================================================
-  # 1. کلاینت‌های رسمی شرکت‌های پیشرو هوش مصنوعی
+  # 1. کلاینت‌های دسکتاپ و محیط‌های رسمی ویندوز (OFFICIAL WINDOWS CLIENTS)
   # ====================================================
   # OpenAI
   - PROCESS-NAME,ChatGPT.exe
-  - PROCESS-NAME,chatgpt.exe
 
   # Anthropic (Desktop & Claude Code CLI)
   - PROCESS-NAME,Claude.exe
   - PROCESS-NAME,Claude Desktop.exe
   - PROCESS-NAME,ClaudeDesktop.exe
-  - PROCESS-NAME,claude.exe
   - PROCESS-NAME,claude-code.exe
 
-  # Google (Gemini & Antigravity / Language Servers)
+  # Google (Gemini, Antigravity, Language Servers & CLI)
   - PROCESS-NAME,Antigravity.exe
   - PROCESS-NAME,Antigravity IDE.exe
   - PROCESS-NAME,agy.exe
@@ -22,55 +20,14 @@ payload:
   - PROCESS-NAME,language_server.exe
   - PROCESS-NAME,language_server_windows_x64.exe
 
-  # Perplexity & Poe & Microsoft
+  # Microsoft & Perplexity & Poe
   - PROCESS-NAME,Perplexity.exe
   - PROCESS-NAME,Poe.exe
   - PROCESS-NAME,Copilot.exe
   - PROCESS-NAME,Microsoft.Copilot.exe
 
   # ====================================================
-  # 2. اکوسیستم‌های مطرح آسیایی و چندزبانه
-  # ====================================================
-  # DeepSeek
-  - PROCESS-NAME,DeepSeek.exe
-  - PROCESS-NAME,dsh.exe
-
-  # ByteDance (Trae AI IDE, Doubao, Coze)
-  - PROCESS-NAME,Trae.exe
-  - PROCESS-NAME,Doubao.exe
-  - PROCESS-NAME,Coze.exe
-
-  # Alibaba / Tongyi / Lingma / Qoder / Qwen
-  - PROCESS-NAME,Tongyi.exe
-  - PROCESS-NAME,Lingma.exe
-  - PROCESS-NAME,LingmaLocal.exe
-  - PROCESS-NAME,Qoder.exe
-  - PROCESS-NAME,qodercli.exe
-  - PROCESS-NAME,qwen.exe
-  - PROCESS-NAME,qwen-code.exe
-
-  # Baidu (ERNIE, Wenxin, Baidu Comate AI Coding)
-  - PROCESS-NAME,Wenxin.exe
-  - PROCESS-NAME,ERNIE.exe
-  - PROCESS-NAME,Comate.exe
-  - PROCESS-NAME,comate-agent.exe
-
-  # Tencent
-  - PROCESS-NAME,Yuanbao.exe
-  - PROCESS-NAME,CodeBuddy.exe
-  - PROCESS-NAME,WorkBuddy.exe
-
-  # Moonshot AI (Kimi)
-  - PROCESS-NAME,Kimi.exe
-  - PROCESS-NAME,kimi-code.exe
-
-  # Xiaomi
-  - PROCESS-NAME,mimo.exe
-  - PROCESS-NAME,mimocode.exe
-  - PROCESS-NAME,MiMo Desktop.exe
-
-  # ====================================================
-  # 3. محیط‌های توسعه اختصاصی هوش مصنوعی (Agentic IDEs)
+  # 2. محیط‌های توسعه اختصاصی و هوش مصنوعی (AGENTIC IDES & EDITORS)
   # ====================================================
   # Cursor
   - PROCESS-NAME,Cursor.exe
@@ -81,18 +38,20 @@ payload:
   - PROCESS-NAME,codeium.exe
   - PROCESS-NAME,codeium-language-server.exe
 
-  # PearAI, Void & Melty (VS Code Forks for AI)
+  # Trae AI (ByteDance Free Agentic IDE)
+  - PROCESS-NAME,Trae.exe
+
+  # Zed, PearAI, Void & Melty (AI Native IDEs)
+  - PROCESS-NAME,Zed.exe
   - PROCESS-NAME,PearAI.exe
   - PROCESS-NAME,Void.exe
   - PROCESS-NAME,Melty.exe
   - PROCESS-NAME,Aide.exe
-  - PROCESS-NAME,zed.exe
 
   # ====================================================
-  # 4. ابزارها، اکستنشن‌ها و سرویس‌های زبانی کدنویسی (AI Coding Helpers)
+  # 3. ابزارها، اکستنشن‌ها و سرویس‌های زبانی کدنویسی (AI CODING HELPERS)
   # ====================================================
   # GitHub Copilot (Workspaces, Language Servers & CLI)
-  - PROCESS-NAME,copilot.exe
   - PROCESS-NAME,copilot-agent.exe
   - PROCESS-NAME,GitHub.Copilot.exe
   - PROCESS-NAME,github-copilot-cli.exe
@@ -126,7 +85,7 @@ payload:
   - PROCESS-NAME,junie.exe
 
   # ====================================================
-  # 5. هارنس‌ها، ایجنت‌های خط فرمان و فریم‌ورک‌های عامل
+  # 4. هارنس‌ها، ایجنت‌های خط فرمان و فریم‌ورک‌های عامل (AGENTS & HARNESSES)
   # ====================================================
   # Aider
   - PROCESS-NAME,aider.exe
@@ -136,7 +95,7 @@ payload:
   - PROCESS-NAME,interpreter.exe
   - PROCESS-NAME,open-interpreter.exe
 
-  # OpenHands & Plandex & Goose
+  # OpenHands, Plandex & Goose
   - PROCESS-NAME,openhands.exe
   - PROCESS-NAME,openhands-agent.exe
   - PROCESS-NAME,plandex.exe
@@ -151,9 +110,7 @@ payload:
 
   # Autonomous Agents & Wrappers (Manus, Devin, Replit, Lovable)
   - PROCESS-NAME,Manus.exe
-  - PROCESS-NAME,manus.exe
   - PROCESS-NAME,Devin.exe
-  - PROCESS-NAME,devin.exe
   - PROCESS-NAME,Lovable.exe
   - PROCESS-NAME,Replit.exe
 
@@ -164,90 +121,355 @@ payload:
   - PROCESS-NAME,openclaw.exe
   - PROCESS-NAME,clawx.exe
 
+  # AI Routers & Gateways CLI
+  - PROCESS-NAME,litellm.exe
+  - PROCESS-NAME,portkey.exe
+  - PROCESS-NAME,9router.exe
+  - PROCESS-NAME,omniroute.exe
+  - PROCESS-NAME,manifest.exe
+
   # ====================================================
-  # 6. کلاینت‌های دسکتاپ تجمیع‌کننده API (API-Only Clients)
+  # 5. کلاینت‌های دسکتاپ تجمیع‌کننده API (API CHAT CLIENTS)
   # ====================================================
   - PROCESS-NAME,Cherry Studio.exe
   - PROCESS-NAME,CherryStudio.exe
+  - PROCESS-NAME,cherry-studio.exe
   - PROCESS-NAME,Chatbox.exe
   - PROCESS-NAME,TypingMind.exe
   - PROCESS-NAME,ChatWise.exe
   - PROCESS-NAME,LobeChat.exe
+  - PROCESS-NAME,lobe-chat.exe
   - PROCESS-NAME,NextChat.exe
+  - PROCESS-NAME,LibreChat.exe
+  - PROCESS-NAME,Big-AGI.exe
+
+  # ====================================================
+  # 6. اکوسیستم‌های مطرح آسیایی و چندزبانه (ASIAN AI ECOSYSTEMS)
+  # ====================================================
+  # DeepSeek
+  - PROCESS-NAME,DeepSeek.exe
+  - PROCESS-NAME,dsh.exe
+
+  # ByteDance (Doubao, Coze)
+  - PROCESS-NAME,Doubao.exe
+  - PROCESS-NAME,Coze.exe
+
+  # Alibaba / Tongyi / Lingma / Qoder / Qwen
+  - PROCESS-NAME,Tongyi.exe
+  - PROCESS-NAME,Lingma.exe
+  - PROCESS-NAME,LingmaLocal.exe
+  - PROCESS-NAME,Qoder.exe
+  - PROCESS-NAME,qodercli.exe
+  - PROCESS-NAME,qwen.exe
+  - PROCESS-NAME,qwen-code.exe
+
+  # Baidu (ERNIE, Wenxin, Comate)
+  - PROCESS-NAME,Wenxin.exe
+  - PROCESS-NAME,ERNIE.exe
+  - PROCESS-NAME,Comate.exe
+  - PROCESS-NAME,comate-agent.exe
+
+  # Tencent
+  - PROCESS-NAME,Yuanbao.exe
+  - PROCESS-NAME,CodeBuddy.exe
+  - PROCESS-NAME,WorkBuddy.exe
+
+  # Moonshot AI (Kimi)
+  - PROCESS-NAME,Kimi.exe
+  - PROCESS-NAME,kimi-code.exe
+
+  # Xiaomi
+  - PROCESS-NAME,mimo.exe
+  - PROCESS-NAME,mimocode.exe
+  - PROCESS-NAME,MiMo Desktop.exe
+
+  # ====================================================
+  # 7. اپلیکیشن‌های اندروید هوش مصنوعی (ANDROID AI APPS VIA PROCESS-NAME)
+  # ====================================================
+  # در هسته میهومو و اندروید نام پروسه برابر با شناسه پکیج است
+  - PROCESS-NAME,com.openai.chatgpt
+  - PROCESS-NAME,com.anthropic.claude
+  - PROCESS-NAME,com.google.android.apps.bard
+  - PROCESS-NAME,com.google.android.apps.gemini
+  - PROCESS-NAME,com.microsoft.copilot
+  - PROCESS-NAME,ai.perplexity.app.android
+  - PROCESS-NAME,com.poe.android
+  - PROCESS-NAME,ai.character.app
+  - PROCESS-NAME,ai.inflection.pi
+  - PROCESS-NAME,com.deepseek.chat
+  - PROCESS-NAME,com.moonshot.kimi
+  - PROCESS-NAME,com.larus.nova
+  - PROCESS-NAME,com.aliyun.tongyi
+  - PROCESS-NAME,com.baidu.erised.app
+  - PROCESS-NAME,com.tencent.yuanbao
+  - PROCESS-NAME,xyz.bczl.chatbox
+  - PROCESS-NAME,com.lobehub.chat
+  - PROCESS-NAME,com.cherry.studio
+  - PROCESS-NAME,com.monica.im
+  - PROCESS-NAME,com.sider.chat
+  - PROCESS-NAME,ai.felo.app
+  - PROCESS-NAME,ai.genspark.app
+  - PROCESS-NAME,com.scaleup.chatapp
+  - PROCESS-NAME,com.codeway.chatai
+  - PROCESS-NAME,com.google.android.apps.labs.language.tailwind
+  - PROCESS-NAME,ai.x.grok
+  - PROCESS-NAME,ai.mistral.chat
+  - PROCESS-NAME,ai.leonardo.leonardo
+  - PROCESS-NAME,com.starryai
+  - PROCESS-NAME,com.tapuniverse.aiartgenerator
+  - PROCESS-NAME,com.suno.android
+  - PROCESS-NAME,com.pocketpalai
+  - PROCESS-NAME,com.appworks.chatdox.pdf.docai
+
   # ============================================================
-  # AI / LLM — CHAT & ASSISTANTS
+  # 8. چت‌بات‌ها و دستیارهای هوش مصنوعی (AI / LLM CHAT & ASSISTANTS)
   # ============================================================
+  # OpenAI & ChatGPT
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+
+  # Anthropic & Claude
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
+
+  # Google AI, Gemini & NotebookLM
   - DOMAIN-SUFFIX,google.ai
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,aistudio.google.com
+
+  # Microsoft Copilot
   - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,sydney.bing.com
+
+  # xAI & Grok
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,api.x.ai
   - DOMAIN-SUFFIX,grok.com
+
+  # DeepSeek
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,deepseek.ai
-  - DOMAIN-SUFFIX,qwen.ai
-  - DOMAIN-SUFFIX,qwenlm.ai
+  - DOMAIN-SUFFIX,api.deepseek.com
+  - DOMAIN-SUFFIX,chat.deepseek.com
+
+  # Mistral AI & Le Chat
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,chat.mistral.ai
+  - DOMAIN-SUFFIX,api.mistral.ai
+  - DOMAIN-SUFFIX,console.mistral.ai
+  - DOMAIN-SUFFIX,le-chat.mistral.ai
+
+  # Meta AI
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,llama.meta.com
+
+  # Poe & Quora
   - DOMAIN-SUFFIX,poe.com
-  - DOMAIN-SUFFIX,character.ai
-  - DOMAIN-SUFFIX,pi.ai
+  - DOMAIN-SUFFIX,poecdn.net
+
+  # Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,api.perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+
+  # Character.AI & Inflection Pi
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,characterai.io
+  - DOMAIN-SUFFIX,pi.ai
+  - DOMAIN-SUFFIX,inflection.ai
+
+  # Cohere & AI21
   - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,cohere.ai
   - DOMAIN-SUFFIX,ai21.com
-  - DOMAIN-SUFFIX,replicate.com
-  - DOMAIN-SUFFIX,together.ai
-  - DOMAIN-SUFFIX,fireworks.ai
-  - DOMAIN-SUFFIX,groq.com
-  - DOMAIN-SUFFIX,openrouter.ai
-  - DOMAIN-SUFFIX,cerebras.ai
-  - DOMAIN-SUFFIX,sambanova.ai
+
+  # Asian Top LLM Services (Qwen, Moonshot, MiniMax, Zhipu, etc.)
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,qwenlm.ai
   - DOMAIN-SUFFIX,moonshot.ai
+  - DOMAIN-SUFFIX,moonshot.cn
   - DOMAIN-SUFFIX,kimi.com
+  - DOMAIN-SUFFIX,kimi.ai
   - DOMAIN-SUFFIX,minimax.io
+  - DOMAIN-SUFFIX,minimaxi.com
+  - DOMAIN-SUFFIX,api.minimax.chat
   - DOMAIN-SUFFIX,z.ai
   - DOMAIN-SUFFIX,zhipuai.cn
+  - DOMAIN-SUFFIX,bigmodel.cn
+  - DOMAIN-SUFFIX,chatglm.cn
   - DOMAIN-SUFFIX,01.ai
+  - DOMAIN-SUFFIX,lingyiwanwu.com
   - DOMAIN-SUFFIX,baichuan-ai.com
   - DOMAIN-SUFFIX,stepfun.com
+  - DOMAIN-SUFFIX,stepfun.net
   - DOMAIN-SUFFIX,dashscope.aliyuncs.com
   - DOMAIN-SUFFIX,hunyuan.tencent.com
   - DOMAIN-SUFFIX,ernie.baidu.com
+  - DOMAIN-SUFFIX,yiyan.baidu.com
+  - DOMAIN-SUFFIX,qianfan.baidubce.com
+  - DOMAIN-SUFFIX,doubao.com
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,coze.cn
+  - DOMAIN-SUFFIX,ciciai.com
 
   # ============================================================
-  # AI SEARCH / RESEARCH
+  # 9. روترها، درگاه‌ها و پرووایدرهای استنتاج API (AI ROUTERS & INFERENCE PROVIDERS)
+  # ============================================================
+  # OpenRouter
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,openrouter.com
+
+  # NVIDIA NIM & AI Foundations
+  - DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,build.nvidia.com
+  - DOMAIN-SUFFIX,integrate.api.nvidia.com
+  - DOMAIN-SUFFIX,nim.nvidia.com
+  - DOMAIN-SUFFIX,ngc.nvidia.com
+  - DOMAIN-SUFFIX,api.ngc.nvidia.com
+  - DOMAIN-SUFFIX,nvcf.nvidia.com
+
+  # Cerebras Cloud
+  - DOMAIN-SUFFIX,cerebras.ai
+  - DOMAIN-SUFFIX,cloud.cerebras.ai
+  - DOMAIN-SUFFIX,inference.cerebras.ai
+  - DOMAIN-SUFFIX,cerebras.net
+
+  # SambaNova Cloud
+  - DOMAIN-SUFFIX,sambanova.ai
+  - DOMAIN-SUFFIX,cloud.sambanova.ai
+  - DOMAIN-SUFFIX,fast.sambanova.ai
+  - DOMAIN-SUFFIX,sambanova.net
+
+  # Cloudflare Workers AI & AI Gateway
+  - DOMAIN-SUFFIX,ai.cloudflare.com
+  - DOMAIN-SUFFIX,gateway.ai.cloudflare.com
+
+  # Hugging Face Inference Providers & Spaces
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,huggingface.tech
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,hf.space
+  - DOMAIN-SUFFIX,api-inference.huggingface.co
+
+  # 9Router & OmniRoute & Manifest
+  - DOMAIN-SUFFIX,9router.com
+  - DOMAIN-SUFFIX,9router.ai
+  - DOMAIN-SUFFIX,omniroute.ai
+  - DOMAIN-SUFFIX,omniroute.com
+  - DOMAIN-SUFFIX,omniroute.dev
+  - DOMAIN-SUFFIX,manifestai.com
+  - DOMAIN-SUFFIX,manifest.build
+  - DOMAIN-SUFFIX,manifest.inc
+
+  # Groq, Together AI, Fireworks AI & Replicate
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,api.groq.com
+  - DOMAIN-SUFFIX,together.ai
+  - DOMAIN-SUFFIX,together.xyz
+  - DOMAIN-SUFFIX,api.together.xyz
+  - DOMAIN-SUFFIX,fireworks.ai
+  - DOMAIN-SUFFIX,api.fireworks.ai
+  - DOMAIN-SUFFIX,replicate.com
+  - DOMAIN-SUFFIX,replicate.delivery
+
+  # SiliconFlow, DeepInfra, Hyperbolic, Novita & Lepton
+  - DOMAIN-SUFFIX,siliconflow.cn
+  - DOMAIN-SUFFIX,siliconflow.com
+  - DOMAIN-SUFFIX,deepinfra.com
+  - DOMAIN-SUFFIX,hyperbolic.xyz
+  - DOMAIN-SUFFIX,novita.ai
+  - DOMAIN-SUFFIX,lepton.ai
+  - DOMAIN-SUFFIX,anyscale.com
+  - DOMAIN-SUFFIX,baseten.co
+  - DOMAIN-SUFFIX,modal.com
+  - DOMAIN-SUFFIX,runpod.io
+  - DOMAIN-SUFFIX,fal.ai
+  - DOMAIN-SUFFIX,fal.run
+  - DOMAIN-SUFFIX,friendli.ai
+  - DOMAIN-SUFFIX,upstage.ai
+
+  # AI Observability, Routers & Gateways (LiteLLM, Portkey, Helicone, Langfuse)
+  - DOMAIN-SUFFIX,litellm.ai
+  - DOMAIN-SUFFIX,portkey.ai
+  - DOMAIN-SUFFIX,helicone.ai
+  - DOMAIN-SUFFIX,langfuse.com
+  - DOMAIN-SUFFIX,braintrust.dev
+  - DOMAIN-SUFFIX,braintrustdata.com
+
+  # ============================================================
+  # 10. ابزارهای جستجو و پژوهش هوش مصنوعی (AI SEARCH & RESEARCH)
   # ============================================================
   - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,phind.com
   - DOMAIN-SUFFIX,exa.ai
   - DOMAIN-SUFFIX,tavily.com
   - DOMAIN-SUFFIX,genspark.ai
+  - DOMAIN-SUFFIX,genspark.app
+  - DOMAIN-SUFFIX,felo.ai
+  - DOMAIN-SUFFIX,felo.app
   - DOMAIN-SUFFIX,komo.ai
   - DOMAIN-SUFFIX,andi.com
   - DOMAIN-SUFFIX,consensus.app
   - DOMAIN-SUFFIX,elicit.com
   - DOMAIN-SUFFIX,scite.ai
-  - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,chatpdf.com
   - DOMAIN-SUFFIX,humata.ai
   - DOMAIN-SUFFIX,scispace.com
 
   # ============================================================
-  # AI CODING / IDE / AGENTS / HARNESSES
+  # 11. دستیاران کدنویسی، محیط‌های توسعه و هارنس‌ها (AI CODING & AGENTS)
   # ============================================================
+  # Cursor
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,api.cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursorassets.com
+
+  # Windsurf & Codeium
   - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,codeium.com
+
+  # Trae AI
+  - DOMAIN-SUFFIX,trae.ai
+
+  # Zed
+  - DOMAIN-SUFFIX,zed.dev
+  - DOMAIN-SUFFIX,api.zed.dev
+
+  # GitHub Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+  - DOMAIN-SUFFIX,origin-tracker.githubusercontent.com
+
+  # Qoder (Alibaba AI Agent IDE)
+  - DOMAIN-SUFFIX,qoder.com
+  - DOMAIN-SUFFIX,qoder.ai
+
+  # Replit, Lovable, Bolt.new & v0
+  - DOMAIN-SUFFIX,replit.com
+  - DOMAIN-SUFFIX,replit.app
+  - DOMAIN-SUFFIX,replit.dev
+  - DOMAIN-SUFFIX,lovable.dev
+  - DOMAIN-SUFFIX,lovable.ai
+  - DOMAIN-SUFFIX,bolt.new
+  - DOMAIN-SUFFIX,stackblitz.com
+  - DOMAIN-SUFFIX,v0.dev
+  - DOMAIN-SUFFIX,v0.app
+
+  # Devin & Manus & OpenHands
+  - DOMAIN-SUFFIX,devin.ai
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,manus.ai
+  - DOMAIN-SUFFIX,openhands.dev
+
+  # Coding Agents & Assistants (Tabnine, Cline, Roo, Aider, Continue, Goose)
   - DOMAIN-SUFFIX,tabnine.com
   - DOMAIN-SUFFIX,augmentcode.com
   - DOMAIN-SUFFIX,cline.bot
@@ -255,15 +477,31 @@ payload:
   - DOMAIN-SUFFIX,aider.chat
   - DOMAIN-SUFFIX,continue.dev
   - DOMAIN-SUFFIX,amazonq.com
-  - DOMAIN-SUFFIX,devin.ai
-  - DOMAIN-SUFFIX,openhands.dev
+  - DOMAIN-SUFFIX,trypear.ai
+  - DOMAIN-SUFFIX,plandex.ai
+  - DOMAIN-SUFFIX,block.github.io
+
+  # Web UI & Chat Aggregator Domains (Cherry Studio, Chatbox, LobeChat, Monica, Sider)
+  - DOMAIN-SUFFIX,cherry-ai.com
+  - DOMAIN-SUFFIX,chatboxai.app
+  - DOMAIN-SUFFIX,typingmind.com
+  - DOMAIN-SUFFIX,lobehub.com
+  - DOMAIN-SUFFIX,nextchat.dev
+  - DOMAIN-SUFFIX,librechat.ai
+  - DOMAIN-SUFFIX,big-agi.com
+  - DOMAIN-SUFFIX,monica.im
+  - DOMAIN-SUFFIX,sider.ai
 
   # ============================================================
-  # AI AGENTS / AUTOMATION / WORKFLOWS
+  # 12. اتوماسیون، فریم‌ورک‌ها و عامل‌های هوشمند (AI AGENTS & WORKFLOWS)
   # ============================================================
   - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,flowiseai.com
   - DOMAIN-SUFFIX,langflow.org
+  - DOMAIN-SUFFIX,langchain.com
+  - DOMAIN-SUFFIX,langchain.dev
+  - DOMAIN-SUFFIX,smith.langchain.com
+  - DOMAIN-SUFFIX,llamaindex.ai
   - DOMAIN-SUFFIX,relevanceai.com
   - DOMAIN-SUFFIX,lindy.ai
   - DOMAIN-SUFFIX,gumloop.com
@@ -276,7 +514,7 @@ payload:
   - DOMAIN-SUFFIX,browser-use.com
 
   # ============================================================
-  # AI IMAGE / DESIGN
+  # 13. تولید تصویر و طراحی هوش مصنوعی (AI IMAGE & DESIGN)
   # ============================================================
   - DOMAIN-SUFFIX,midjourney.com
   - DOMAIN-SUFFIX,leonardo.ai
@@ -285,6 +523,8 @@ payload:
   - DOMAIN-SUFFIX,stability.ai
   - DOMAIN-SUFFIX,blackforestlabs.ai
   - DOMAIN-SUFFIX,flux.ai
+  - DOMAIN-SUFFIX,bfl.ai
+  - DOMAIN-SUFFIX,bfl.ml
   - DOMAIN-SUFFIX,krea.ai
   - DOMAIN-SUFFIX,recraft.ai
   - DOMAIN-SUFFIX,tensor.art
@@ -299,9 +539,12 @@ payload:
   - DOMAIN-SUFFIX,clipdrop.co
   - DOMAIN-SUFFIX,firefly.adobe.com
   - DOMAIN-SUFFIX,photoroom.com
+  - DOMAIN-SUFFIX,glif.app
+  - DOMAIN-SUFFIX,starryai.com
+  - DOMAIN-SUFFIX,vyro.ai
 
   # ============================================================
-  # AI VIDEO / AVATAR
+  # 14. تولید ویدیو و آواتار هوش مصنوعی (AI VIDEO & AVATAR)
   # ============================================================
   - DOMAIN-SUFFIX,runwayml.com
   - DOMAIN-SUFFIX,runway.com
@@ -309,10 +552,13 @@ payload:
   - DOMAIN-SUFFIX,luma.ai
   - DOMAIN-SUFFIX,lumalabs.ai
   - DOMAIN-SUFFIX,klingai.com
+  - DOMAIN-SUFFIX,klingai.org
   - DOMAIN-SUFFIX,vidu.com
+  - DOMAIN-SUFFIX,vidu.studio
   - DOMAIN-SUFFIX,pixverse.ai
   - DOMAIN-SUFFIX,haiper.ai
   - DOMAIN-SUFFIX,hailuoai.video
+  - DOMAIN-SUFFIX,hailuoai.com
   - DOMAIN-SUFFIX,higgsfield.ai
   - DOMAIN-SUFFIX,hedra.com
   - DOMAIN-SUFFIX,synthesia.io
@@ -325,24 +571,22 @@ payload:
   - DOMAIN-SUFFIX,captions.ai
 
   # ============================================================
-  # AI AUDIO / MUSIC / VOICE
+  # 15. صدا، موسیقی و تبدیل گفتار (AI AUDIO, VOICE & TRANSCRIPTION)
   # ============================================================
   - DOMAIN-SUFFIX,elevenlabs.io
   - DOMAIN-SUFFIX,play.ht
   - DOMAIN-SUFFIX,murf.ai
   - DOMAIN-SUFFIX,resemble.ai
   - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,suno.ai
   - DOMAIN-SUFFIX,udio.com
+  - DOMAIN-SUFFIX,fish.audio
   - DOMAIN-SUFFIX,aiva.ai
   - DOMAIN-SUFFIX,soundraw.io
   - DOMAIN-SUFFIX,boomy.com
   - DOMAIN-SUFFIX,mubert.com
   - DOMAIN-SUFFIX,kits.ai
   - DOMAIN-SUFFIX,speechify.com
-
-  # ============================================================
-  # SPEECH / TRANSCRIPTION / MEETING AI
-  # ============================================================
   - DOMAIN-SUFFIX,assemblyai.com
   - DOMAIN-SUFFIX,deepgram.com
   - DOMAIN-SUFFIX,soniox.com
@@ -357,7 +601,7 @@ payload:
   - DOMAIN-SUFFIX,krisp.ai
 
   # ============================================================
-  # AI PRODUCTIVITY / WRITING / DOCUMENTS
+  # 16. نگارش، اسناد و بهره‌وری هوش مصنوعی (AI PRODUCTIVITY & WRITING)
   # ============================================================
   - DOMAIN-SUFFIX,grammarly.com
   - DOMAIN-SUFFIX,jasper.ai
@@ -371,51 +615,10 @@ payload:
   - DOMAIN-SUFFIX,tome.app
 
   # ============================================================
-  # AI CLOUD / MODEL INFERENCE / GPU PLATFORMS
+  # 17. هاب‌های مدل و پلتفرم‌های جامعه هوش مصنوعی (AI MODEL HUBS & ECOSYSTEM)
   # ============================================================
-  - DOMAIN-SUFFIX,fal.ai
-  - DOMAIN-SUFFIX,modal.com
-  - DOMAIN-SUFFIX,runpod.io
-  - DOMAIN-SUFFIX,baseten.co
-  - DOMAIN-SUFFIX,anyscale.com
-  - DOMAIN-SUFFIX,lepton.ai
-  - DOMAIN-SUFFIX,novita.ai
-  - DOMAIN-SUFFIX,siliconflow.com
-
-  # ============================================================
-  # MODEL HUBS / OPEN AI ECOSYSTEM
-  # ============================================================
-  - DOMAIN-SUFFIX,huggingface.co
-  - DOMAIN-SUFFIX,huggingface.tech
-  - DOMAIN-SUFFIX,hf.co
   - DOMAIN-SUFFIX,modelscope.cn
   - DOMAIN-SUFFIX,kaggle.com
   - DOMAIN-SUFFIX,wandb.ai
   - DOMAIN-SUFFIX,wandb.com
   - DOMAIN-SUFFIX,weights.com
-
-  # ============================================================
-  # LOCAL AI RUNTIMES / DESKTOP APPS
-  # ============================================================
-  - DOMAIN-SUFFIX,ollama.com
-  - DOMAIN-SUFFIX,lmstudio.ai
-  - DOMAIN-SUFFIX,jan.ai
-  - DOMAIN-SUFFIX,gpt4all.io
-  - DOMAIN-SUFFIX,anythingllm.com
-  - DOMAIN-SUFFIX,openwebui.com
-  - DOMAIN-SUFFIX,koboldai.org
-
-  # ============================================================
-  # WINDOWS AI PROCESS NAMES
-  # ============================================================
-  - PROCESS-NAME,ChatGPT.exe
-  - PROCESS-NAME,Cursor.exe
-  - PROCESS-NAME,Windsurf.exe
-  - PROCESS-NAME,ollama.exe
-  - PROCESS-NAME,jan.exe
-  - PROCESS-NAME,AnythingLLM.exe
-
-  # ============================================================
-  # ANDROID PACKAGE NAMES
-  # ============================================================
-  - PACKAGE-NAME,com.openai.chatgpt
