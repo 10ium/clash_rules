@@ -1,4 +1,179 @@
 payload:
+  # ====================================================
+  # 1. کلاینت‌های رسمی شرکت‌های پیشرو هوش مصنوعی
+  # ====================================================
+  # OpenAI
+  - PROCESS-NAME,ChatGPT.exe
+  - PROCESS-NAME,chatgpt.exe
+
+  # Anthropic (Desktop & Claude Code CLI)
+  - PROCESS-NAME,Claude.exe
+  - PROCESS-NAME,Claude Desktop.exe
+  - PROCESS-NAME,ClaudeDesktop.exe
+  - PROCESS-NAME,claude.exe
+  - PROCESS-NAME,claude-code.exe
+
+  # Google (Gemini & Antigravity / Language Servers)
+  - PROCESS-NAME,Antigravity.exe
+  - PROCESS-NAME,Antigravity IDE.exe
+  - PROCESS-NAME,agy.exe
+  - PROCESS-NAME,gemini.exe
+  - PROCESS-NAME,gemini-cli.exe
+  - PROCESS-NAME,language_server.exe
+  - PROCESS-NAME,language_server_windows_x64.exe
+
+  # Perplexity & Poe & Microsoft
+  - PROCESS-NAME,Perplexity.exe
+  - PROCESS-NAME,Poe.exe
+  - PROCESS-NAME,Copilot.exe
+  - PROCESS-NAME,Microsoft.Copilot.exe
+
+  # ====================================================
+  # 2. اکوسیستم‌های مطرح آسیایی و چندزبانه
+  # ====================================================
+  # DeepSeek
+  - PROCESS-NAME,DeepSeek.exe
+  - PROCESS-NAME,dsh.exe
+
+  # ByteDance (Trae AI IDE, Doubao, Coze)
+  - PROCESS-NAME,Trae.exe
+  - PROCESS-NAME,Doubao.exe
+  - PROCESS-NAME,Coze.exe
+
+  # Alibaba / Tongyi / Lingma / Qoder / Qwen
+  - PROCESS-NAME,Tongyi.exe
+  - PROCESS-NAME,Lingma.exe
+  - PROCESS-NAME,LingmaLocal.exe
+  - PROCESS-NAME,Qoder.exe
+  - PROCESS-NAME,qodercli.exe
+  - PROCESS-NAME,qwen.exe
+  - PROCESS-NAME,qwen-code.exe
+
+  # Baidu (ERNIE, Wenxin, Baidu Comate AI Coding)
+  - PROCESS-NAME,Wenxin.exe
+  - PROCESS-NAME,ERNIE.exe
+  - PROCESS-NAME,Comate.exe
+  - PROCESS-NAME,comate-agent.exe
+
+  # Tencent
+  - PROCESS-NAME,Yuanbao.exe
+  - PROCESS-NAME,CodeBuddy.exe
+  - PROCESS-NAME,WorkBuddy.exe
+
+  # Moonshot AI (Kimi)
+  - PROCESS-NAME,Kimi.exe
+  - PROCESS-NAME,kimi-code.exe
+
+  # Xiaomi
+  - PROCESS-NAME,mimo.exe
+  - PROCESS-NAME,mimocode.exe
+  - PROCESS-NAME,MiMo Desktop.exe
+
+  # ====================================================
+  # 3. محیط‌های توسعه اختصاصی هوش مصنوعی (Agentic IDEs)
+  # ====================================================
+  # Cursor
+  - PROCESS-NAME,Cursor.exe
+  - PROCESS-NAME,cursor-agent.exe
+
+  # Windsurf & Codeium
+  - PROCESS-NAME,Windsurf.exe
+  - PROCESS-NAME,codeium.exe
+  - PROCESS-NAME,codeium-language-server.exe
+
+  # PearAI, Void & Melty (VS Code Forks for AI)
+  - PROCESS-NAME,PearAI.exe
+  - PROCESS-NAME,Void.exe
+  - PROCESS-NAME,Melty.exe
+  - PROCESS-NAME,Aide.exe
+  - PROCESS-NAME,zed.exe
+
+  # ====================================================
+  # 4. ابزارها، اکستنشن‌ها و سرویس‌های زبانی کدنویسی (AI Coding Helpers)
+  # ====================================================
+  # GitHub Copilot (Workspaces, Language Servers & CLI)
+  - PROCESS-NAME,copilot.exe
+  - PROCESS-NAME,copilot-agent.exe
+  - PROCESS-NAME,GitHub.Copilot.exe
+  - PROCESS-NAME,github-copilot-cli.exe
+
+  # Amazon Q / CodeWhisperer
+  - PROCESS-NAME,AmazonQ.exe
+  - PROCESS-NAME,amazon-q.exe
+  - PROCESS-NAME,q.exe
+
+  # Tabnine
+  - PROCESS-NAME,TabNine.exe
+  - PROCESS-NAME,TabNine-deep-cloud.exe
+  - PROCESS-NAME,TabNine-server.exe
+  - PROCESS-NAME,WD-TabNine.exe
+
+  # Pieces for Developers
+  - PROCESS-NAME,Pieces OS.exe
+  - PROCESS-NAME,Pieces.exe
+  - PROCESS-NAME,PiecesOS.exe
+
+  # Supermaven & Sourcegraph Cody
+  - PROCESS-NAME,sm.exe
+  - PROCESS-NAME,supermaven.exe
+  - PROCESS-NAME,supermaven-agent.exe
+  - PROCESS-NAME,cody.exe
+  - PROCESS-NAME,cody-agent.exe
+
+  # Continue & JetBrains Junie
+  - PROCESS-NAME,continue.exe
+  - PROCESS-NAME,continue-binary.exe
+  - PROCESS-NAME,junie.exe
+
+  # ====================================================
+  # 5. هارنس‌ها، ایجنت‌های خط فرمان و فریم‌ورک‌های عامل
+  # ====================================================
+  # Aider
+  - PROCESS-NAME,aider.exe
+  - PROCESS-NAME,aider-chat.exe
+
+  # Open Interpreter
+  - PROCESS-NAME,interpreter.exe
+  - PROCESS-NAME,open-interpreter.exe
+
+  # OpenHands & Plandex & Goose
+  - PROCESS-NAME,openhands.exe
+  - PROCESS-NAME,openhands-agent.exe
+  - PROCESS-NAME,plandex.exe
+  - PROCESS-NAME,goose.exe
+
+  # Cline, Roo Code, Kilo, Opencode
+  - PROCESS-NAME,cline.exe
+  - PROCESS-NAME,roo-code.exe
+  - PROCESS-NAME,opencode.exe
+  - PROCESS-NAME,kilo.exe
+  - PROCESS-NAME,kilocode.exe
+
+  # Autonomous Agents & Wrappers (Manus, Devin, Replit, Lovable)
+  - PROCESS-NAME,Manus.exe
+  - PROCESS-NAME,manus.exe
+  - PROCESS-NAME,Devin.exe
+  - PROCESS-NAME,devin.exe
+  - PROCESS-NAME,Lovable.exe
+  - PROCESS-NAME,Replit.exe
+
+  # Nous Research & OpenClaw
+  - PROCESS-NAME,hermes.exe
+  - PROCESS-NAME,hermes-agent.exe
+  - PROCESS-NAME,Hermes Desktop.exe
+  - PROCESS-NAME,openclaw.exe
+  - PROCESS-NAME,clawx.exe
+
+  # ====================================================
+  # 6. کلاینت‌های دسکتاپ تجمیع‌کننده API (API-Only Clients)
+  # ====================================================
+  - PROCESS-NAME,Cherry Studio.exe
+  - PROCESS-NAME,CherryStudio.exe
+  - PROCESS-NAME,Chatbox.exe
+  - PROCESS-NAME,TypingMind.exe
+  - PROCESS-NAME,ChatWise.exe
+  - PROCESS-NAME,LobeChat.exe
+  - PROCESS-NAME,NextChat.exe
   # ============================================================
   # AI / LLM — CHAT & ASSISTANTS
   # ============================================================
