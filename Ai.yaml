@@ -243,6 +243,11 @@ payload:
   - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,ai.goog
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,alkalimakersuiteapplets.pa.googleapis.com
+  - DOMAIN-SUFFIX,aiplatform.googleapis.com
 
   # Microsoft Copilot
   - DOMAIN-SUFFIX,copilot.microsoft.com
@@ -426,6 +431,16 @@ payload:
   # ============================================================
   # 11. دستیاران کدنویسی، محیط‌های توسعه و هارنس‌ها (AI CODING & AGENTS)
   # ============================================================
+  # Google Antigravity & Cloud Code Assist
+  - DOMAIN-SUFFIX,antigravity.goog
+  - DOMAIN-SUFFIX,antigravity.google.com
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
+  - DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+  - DOMAIN-SUFFIX,aicode.googleapis.com
+  - DOMAIN-SUFFIX,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+  - DOMAIN-SUFFIX,antigravity-ide-auto-updater-974169037036.us-central1.run.app
+
   # Cursor
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,api.cursor.com
