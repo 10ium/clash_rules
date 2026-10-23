@@ -12,13 +12,9 @@ payload:
   - PROCESS-NAME,claude-code.exe
 
   # Google (Gemini, Antigravity, Language Servers & CLI)
-  - PROCESS-NAME,Antigravity.exe
-  - PROCESS-NAME,Antigravity IDE.exe
   - PROCESS-NAME,agy.exe
   - PROCESS-NAME,gemini.exe
   - PROCESS-NAME,gemini-cli.exe
-  - PROCESS-NAME,language_server.exe
-  - PROCESS-NAME,language_server_windows_x64.exe
 
   # Microsoft & Perplexity & Poe
   - PROCESS-NAME,Perplexity.exe
